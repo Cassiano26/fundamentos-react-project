@@ -89,6 +89,10 @@
         margin-top: 1rem;
     }
     & button {
+        &:disabled {
+            opacity: 0.7;
+            cursor: not-allowed;
+        }
         padding: 1rem 1.5rem;
         margin-top: 1rem;
         border-radius: 0.5rem;
@@ -97,7 +101,7 @@
         color: var(--white);
         cursor: pointer;
         transition: background-color 0.1s;
-        &:hover {
+        &:not(:disabled):hover {
             background: var(--green-300);
         }
     }

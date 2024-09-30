@@ -8,7 +8,7 @@ export function Sidebar(props) {
         <aside className={styles.sidebar}>
             <img src={ImageTop} alt="" />
             <div className={styles.profile}>
-                < Avatar hasBorder src="https://github.com/maykbrito.png" />
+                < Avatar hasBorder src="https://github.com/Cassiano26.png" />
                 <strong>Cassiano Candido</strong>
                 <span>Web Developer</span>
             </div>
